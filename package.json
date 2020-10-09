@@ -2,8 +2,8 @@
     "name": "kafka-streams",
     "version": "5.0.0",
     "description": "kafka-streams for Node.js",
-    "types": "dist/types.d.ts",
-    "main": "dist/index.js",
+    "types": "src/types.d.ts",
+    "main": "src/index.js",
     "scripts": {
         "consumeFromTopic": "node ./examples/consumeFromTopic.js",
         "consumeOneProduceTwo": "node ./examples/consumeOneProduceTwo.js",
